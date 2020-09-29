@@ -1,10 +1,18 @@
-Assessing-the-Readiness-of-HEI-in-Malaysia-to-Accept-Generation-Alpha
-==============================
+# Assessing-the-Readiness-of-HEI-in-Malaysia-to-Accept-Generation-Alpha
 
 -
 
-Project Organization
-------------
+<div align="center">
+  <br>
+  <img src="https://img.shields.io/badge/MADE%20WITH-PYTHON%20-red?style=for-the-badge"
+      alt="API stability" height="25"/>
+  <img src="https://img.shields.io/badge/SERVED%20WITH-Heroku-blue?style=for-the-badge"
+      alt="API stability" height="25"/>
+  <img src="https://img.shields.io/badge/DASHBOARDING%20WITH-Streamlit-green?style=for-the-badge"
+      alt="API stability" height="25"/>
+</div>
+
+## Project Organization
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
@@ -51,7 +59,6 @@ Project Organization
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
-
---------
+---
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>

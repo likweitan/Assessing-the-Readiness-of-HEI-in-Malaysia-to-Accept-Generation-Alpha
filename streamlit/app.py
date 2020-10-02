@@ -160,6 +160,44 @@ def preprocessing_tips() -> None:
              "make sure to use the same date format. Any changes to this structure will break the "
              "application. ")
 
+    st.write("Info Content")
+
+    example_df = pd.DataFrame([
+        ['odIwFdIiecFwVUAEEV40K3MSuCSlIZkbq92Zp9tkZq8=', '【基礎】怎樣解題：數量關係', 'Exercise',
+            'easy', 'math', 'elementary', 'aH0Dz0KdH9gio7rrcGRHvrmd9vcd/0WJbeEFB7qeUKA=',
+            'ICgke8JJv5eapCPwyj1aco8PEtoBkUbTZYIqxmYtqBk=', 'bo3jsx1beVLEZ+2sckxdZNYnlLpVS7hb5lWU2baQ66k=',
+            'KPJMQebU0O24+NzlQ4udb2BXLlKV1Hte61+hV5Xb+oU='],
+        ['dfeeBaa8zDhWS6nu7zeXKwLyi4zqEajI3tJM9/fSBPM=', '【基礎】和差問題 1', 'Exercise',
+            'easy', 'math', 'elementary', 'aH0Dz0KdH9gio7rrcGRHvrmd9vcd/0WJbeEFB7qeUKA=',
+            'ICgke8JJv5eapCPwyj1aco8PEtoBkUbTZYIqxmYtqBk=', 'bo3jsx1beVLEZ+2sckxdZNYnlLpVS7hb5lWU2baQ66k=',
+            'KPJMQebU0O24+NzlQ4udb2BXLlKV1Hte61+hV5Xb+oU='],
+        ['C2AT0OBTUn+PRxEVd39enhW/DJtka1Tk90DUAR6yVdA=', '【基礎】雞兔問題 1', 'Exercise',
+            'easy', 'math', 'elementary', 'aH0Dz0KdH9gio7rrcGRHvrmd9vcd/0WJbeEFB7qeUKA=',
+            'ICgke8JJv5eapCPwyj1aco8PEtoBkUbTZYIqxmYtqBk=', 'bo3jsx1beVLEZ+2sckxdZNYnlLpVS7hb5lWU2baQ66k=',
+            'KPJMQebU0O24+NzlQ4udb2BXLlKV1Hte61+hV5Xb+oU='],
+        ['jZvYpEa6VB/WrlKKmQHnfbv/xJ4OypBzq0epVcn500Q=', '【基礎】年齡問題 1', 'Exercise',
+            'easy', 'math', 'elementary', 'aH0Dz0KdH9gio7rrcGRHvrmd9vcd/0WJbeEFB7qeUKA=',
+            'ICgke8JJv5eapCPwyj1aco8PEtoBkUbTZYIqxmYtqBk=', 'bo3jsx1beVLEZ+2sckxdZNYnlLpVS7hb5lWU2baQ66k=',
+            'KPJMQebU0O24+NzlQ4udb2BXLlKV1Hte61+hV5Xb+oU='],
+        ['M+UxJPgRIW57a0YS3eik8A9YDj+AwaMpTa5yWYn/kAw=', '【基礎】追趕問題', 'Exercise',
+            'easy', 'math', 'elementary', 'aH0Dz0KdH9gio7rrcGRHvrmd9vcd/0WJbeEFB7qeUKA=',
+            'ICgke8JJv5eapCPwyj1aco8PEtoBkUbTZYIqxmYtqBk=', 'bo3jsx1beVLEZ+2sckxdZNYnlLpVS7hb5lWU2baQ66k=',
+            'KPJMQebU0O24+NzlQ4udb2BXLlKV1Hte61+hV5Xb+oU='],
+    ], columns=['ucid', 'content_pretty_name', 'content_kind', 'difficulty', 'learning_stage', 'subject', 'level1_id', 'level2_id', 'level3_id', 'level4_id'])
+    st.write(example_df)
+
+    example_df = pd.DataFrame([
+        ['2018-11-18', 'Peter+Mike', 'Qwixx',
+            'Peter77+Mike77', 'Peter+Mike', 'Normal'],
+        ['2018-11-18', 'Chris+Mike', 'Qwixx',
+            'Chris42+Mike99', 'Mike', 'Big Points'],
+        ['2018-11-22', 'Mike+Chris', 'Jaipur',
+            'Mike84+Chris91', 'Chris', 'Normal'],
+        ['2018-11-30', 'Peter+Chris+Mike', 'Kingdomino',
+            'Chris43+Mike37+Peter35', 'Chris', '5x5'],
+    ], columns=['Date', 'Players', 'Game', 'Scores', 'Winner', 'Version'])
+    st.write(example_df)
+
     example_df = pd.DataFrame([
         ['2018-11-18', 'Peter+Mike', 'Qwixx',
             'Peter77+Mike77', 'Peter+Mike', 'Normal'],
